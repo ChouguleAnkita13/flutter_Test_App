@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:test_app/view/screens/dashboard.dart';
 import 'package:test_app/view/screens/login.dart';
 import 'package:test_app/view/screens/signup.dart';
 import 'package:test_app/view/screens/splash_screen.dart';
@@ -13,7 +12,4 @@ Map<String, Widget Function(BuildContext)> appRoute = {
   "/singUp": (context) {
     return const SignUpScreen();
   },
-  "/dashboard": (context) {
-    return const DashBoard();
-  }
 };
